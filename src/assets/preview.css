@@ -1,0 +1,27 @@
+.preview-container {
+  display: inline-block;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 100vh; /* set the height as desired */
+  overflow: scroll;
+}
+
+.preview-item {
+  margin-bottom: 1rem;
+}
+
+.preview-item h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.preview-item img {
+  width: 100%;
+}
+.preview-item p:hover {
+  background-color: blue;
+  transition: 0.2s;
+}

@@ -1,0 +1,19 @@
+.Featured-container {
+  width: 50vw;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  float: right;
+}
+
+.Featured-container p {
+  flex: 1;
+  align-content: center;
+
+  margin: 20px;
+}
+
+.Featured-container img {
+  max-width: 50%;
+  margin-right: auto;
+}
